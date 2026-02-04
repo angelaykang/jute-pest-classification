@@ -1,0 +1,51 @@
+# trained models (can be large)
+*.keras
+*.h5
+*.pb
+*.pkl
+*.joblib
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# jupyter notebook checkpoints
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# virtual environments
+venv/
+env/
+ENV/
+.venv
+.venv310/
+.venv-gpu/
+
+# dataset (local copy; do not push)
+data/
+*.zip
+
+# ide
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+__MACOSX/
+**/._*
+
+# logs
+*.log
+logs/
+
+# temporary files
+*.tmp
+*.temp
+*.bak
